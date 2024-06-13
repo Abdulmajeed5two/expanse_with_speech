@@ -1,0 +1,75 @@
+.container {
+    font-family: 'Arial, sans-serif';
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    color: #333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input, .select {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 90%;
+}
+
+.select {
+    width: 92%;
+}
+
+.button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.searchInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: linear-gradient(45deg, #a8e063, #56ab2f);
+    color: rgb(9, 9, 9);
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+
